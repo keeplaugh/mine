@@ -1,0 +1,14 @@
+#cloud-config
+# ssh keys for access
+ssh_authorized_keys:
+ 
+
+# rancherOS hostname
+hostname: rancheros
+
+# rancher-network settings
+rancher:
+  network:
+    interfaces:
+      eth0:
+        dhcp: true
